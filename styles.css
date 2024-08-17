@@ -1,0 +1,66 @@
+:root {
+  --main: #02577a;
+}
+body {
+  color: var(--main);
+}
+.bg-main {
+  background-color: var(--main);
+}
+
+.text-main {
+  color: var(--main);
+}
+
+.w-30 {
+  width: 30%;
+}
+.w-40 {
+  width: 40%;
+}
+.border-main {
+  border: 2px solid var(--main);
+}
+.border-b-main {
+  border-bottom: 2px solid var(--main);
+}
+.border-b-main-2 {
+  border-bottom: 1px solid var(--main);
+}
+.border-b-white {
+  border-bottom: 2px solid #fff;
+}
+.bg-black {
+  background-color: #1e1e1e;
+}
+.explore-container {
+  height: 250px;
+  border-radius: 5px;
+  padding: 2rem;
+}
+.news-and-updates {
+  background-image: url("./assets/news_and_updates.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.explore {
+  background-image: url("./assets/explore.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.get-started {
+  background-image: url("./assets/get_started.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+.contact-bg {
+  background-image: url("./assets/contact_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
